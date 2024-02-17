@@ -1,0 +1,6 @@
+[Unit]
+Description=Removes Fedora start page from Firefox
+[Service]
+ExecStart=/usr/local/sbin/unfedora-firefox.sh
+[Install]
+WantedBy=multi-user.target
